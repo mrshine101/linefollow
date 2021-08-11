@@ -6,6 +6,6 @@ basic.forever(function () {
     } else if (input.compassHeading() < 160) {
         Tinybit.CarCtrlSpeed2(Tinybit.CarState.Car_SpinRight, 75, 75)
     } else {
-        Tinybit.CarCtrl(Tinybit.CarState.Car_Stop)
+        Tinybit.CarCtrl(Tinybit.CarState.Car_Run)
     }
 })
